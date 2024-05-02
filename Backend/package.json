@@ -1,0 +1,31 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sojitrakartik02/Bookstore.git"
+  },
+  "author": "Kartik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sojitrakartik02/Bookstore/issues"
+  },
+  "homepage": "https://github.com/sojitrakartik02/Bookstore#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.2",
+    "mongoosh": "^0.0.7",
+    "nodemon": "^3.1.0"
+  }
+}
